@@ -1,0 +1,116 @@
+*{
+    padding: 0; margin: 0; font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.container-geral{
+    
+    background-color:  hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.container{
+
+    box-shadow: 20px 10px rgba(10, 4, 4, 0.068);
+    border-radius: 25px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container img{
+
+    border-radius: 29px;
+    padding: 20px;
+    width: 350px;
+
+}
+
+.container h1{
+    padding-left: 25px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-size: 25px;
+
+}
+
+#texto{
+
+    padding-left: 20px;
+    width: 80%;
+    color:hsl(215, 51%, 70%);
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.container-icons{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.container-icons img{
+    width: 15px;
+    float: left;
+    
+}
+
+#days{
+
+    padding-left: 95px;
+
+}
+
+#txtday{
+    color: hsl(215, 51%, 70%);
+}
+
+#azul{
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+.container-img{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.container-img img{
+
+    width: 38px;
+}
+
+.container-img p {
+
+    color: hsl(215, 51%, 70%);
+    padding-left: 6px;
+
+}
+
+#author {
+
+    color: hsl(0, 0%, 100%);
+}
+
+#linha {
+  border-color: hsla(215, 76%, 34%, 0.315);
+  width:90%;
+  margin: 0 auto;
+}
+
+.attribution { font-size: 15px; text-align: center; margin-top: 4%;color: rgb(255, 255, 255);}
+.attribution a { color: hsl(298, 80%, 76%); font-size: 15px; }
